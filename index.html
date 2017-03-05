@@ -5,8 +5,99 @@
     <title>HTML Academy: Седона</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Продвинутый HTML и CSS</a>».</p>
-
+    <div class="wrapper">
+    	<header class="page-header">
+    		<nav class="menu menu--opened">
+    			<ul class="menu__list">
+    				<li class="menu__item"><a href="#" class="menu__link">Главная</a></li>
+    				<li class="menu__item"><a href="photo.html" class="menu__link">Фото и видео</a></li>
+    				<li class="menu__item"><a href="form.html" class="menu__link">Форма отзыва</a></li>
+    				<li class="menu__item"><a href="https://htmlacademy.ru" class="menu__link">HTML academy</a></li>
+    			</ul>
+    		</nav>
+    		<div class="header">
+    			<div class="logo">
+    				<a href="#" class="logo__link">
+    					<img src="http://placehold.it/150x100" class="logo__image" alt="Седона-лого">
+    				</a>
+    			</div>
+    			<button class="header__toggle" type="button">Меню</button>
+    		</div>
+    	</header>
+    	<main class="main-content">
+    		<div class="intro">
+    			<img src="http://placehold.it/150x100" class="intro__text" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
+    		</div>
+    		<div class="reasons">
+    			<h1 class="reasons__header">Седона &mdash; небольшой городок в Аризоне,заслуживающий большего!</h1>
+    			<p class="reasons__text">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
+    		</div>
+    		<div class="reason reason--blue">
+    			<h2 class="reason__header">Настоящий городок</h2>
+    			<p class="reason__number">&mdash; №1 &mdash;</p>
+    			<p class="reason__text">Седона &mdash; не аттракцион для туристов, там течет своя жизнь.</p>
+    		</div>
+    		<div class="resort-image">
+    			<img src="http://placehold.it/150x100" alt="Город">
+    		</div>
+    		<div class="reasons">
+    			<div class="reasons__item">
+    				<h2 class="reasons__header">Жилье</h2>
+    				<p class="reasons__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+    			</div>
+    			<div class="reasons__item">
+    				<h2 class="reasons__header">Сувениры</h2>
+    				<p class="reasons__text">Не только китайского, но и местного производства!</p>
+    			</div>
+    			<div class="reasons__item">
+    				<h2 class="reasons__header">Еда</h2>
+    				<p class="reasons__text">Всегда заказывайте фирменный бургер, Вы не разочаруетесь!</p>
+    			</div>
+    		</div>
+    		<div class="reason reason--blue">
+    			<h2 class="reason__header">Там есть мост дьявола</h2>
+    			<p class="reason__number">&mdash; №2 &mdash;</p>
+    			<p class="reason__text">Да, по нему можно пройти! Если конечно вы осмелитесь.</p>
+    		</div>
+    		<div class="resort-image">
+    			<img src="http://placehold.it/150x100" alt="Мост дьявола">
+    		</div>
+    		<div class="reason reason--grey">
+    			<h2 class="reason__header">Небольшая площадь</h2>
+    			<p class="reason__number">&mdash; №3 &mdash;</p>
+    			<p class="reason__text">Все достопримечательности находяться очень близко</p>
+    		</div>
+    		<div class="reason reason--grey">
+    			<h2 class="reason__header">Красивая дорога</h2>
+    			<p class="reason__number">&mdash; №4 &mdash;</p>
+    			<p class="reason__text">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
+    		</div>
+    		<div class="reason reason--grey">
+    			<h2 class="reason__header">Мало туристов</h2>
+    			<p class="reason__number">&mdash; №5 &mdash;</p>
+    			<p class="reason__text">Большинство едет в Гранд-Каньйон и толпиться там</p>
+    		</div>
+    		<div class="hotel-seach">
+    			<h3 class="hotel-search__header">Заинтересовались?</h3>
+    			<p class="hotel-search__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+    			<a class="hotel-search__btn" href="#">Найти гостиницу</a>
+    		</div>
+    		<div class="map">
+    			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d104764.6395322767!2d-111.79582859749117!3d34.8588659303436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sua!4v1479474827994" allowfullscreen></iframe>
+    		</div>
+    	</main>
+		<footer class="page-footer">
+			<p class="hashtag">#Visitsedona</p>
+			<div class="social-btns">
+				<a class="social-btn social-btn--twitter" href="#">Twitter</a>
+ 				<a class="social-btn social-btn--facebook" href="#">Facebook</a>
+ 				<a class="social-btn social-btn--youtube" href="#">Youtube</a>
+			</div>
+			<div class="copyright">
+				<span class="copyright__text">Разработано</span>
+ 				<a class="copyright__logo" href="https://htmlacademy.ru">HTML academy</a>
+			</div>
+		</footer>
+    </div>
   </body>
 </html>
