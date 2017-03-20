@@ -1,0 +1,24 @@
+@mixin no-list-styles() {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.menu__list {
+	@include no-list-styles;
+}
+
+.menu__link {
+	display:block;
+	padding:21px 90px;
+
+	background-color:#81b3d2;
+	text-decoration:none;
+
+	text-align:center;
+	text-transform:uppercase;
+	color:#ffffff;
+
+	border-bottom:solid 1px #678fa8;
+}
+
