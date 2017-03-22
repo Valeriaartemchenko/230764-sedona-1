@@ -1,6 +1,15 @@
 .intro {
-	background-image: url(../img/bg-back-mobile@1x.jpg);
-	background-color:#34474e;
-	width:320px;
-	height:390px;
+  width: 320px;
+  height: 304px;
+
+  padding-top: 85px;
+
+	background-image:
+    url(../img/bg-intro-triangle-mobile.svg),
+    url(../img/bg-back-mobile@1x.jpg);
+    background-color: #34474e;
+  background-repeat: no-repeat;
+  background-position:
+    left 0px bottom 0px;
+  background-size: 100%,cover;
 }

@@ -10,12 +10,15 @@
 
 .menu__link {
 	display:block;
-	padding:21px 90px;
+  padding-top: 19px;
+  padding-bottom: 18px;
+	padding-left: 90px;
+  padding-right: 90px;
 
-	background-color:#81b3d2;
+	background-color:$bg-color-blue;
 	text-decoration:none;
 
-	text-align:center;
+	font-family:"PT-sans-bold", "Arial", sans-serif;
 	text-transform:uppercase;
 	color:#ffffff;
 
