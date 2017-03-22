@@ -1,0 +1,11 @@
+@mixin font-title() {
+	font-family:"PT-sans-bold";
+	font-size:18px;
+	font-style:uppercase;
+}
+
+@mixin no-list-styles() {
+	list-style:none;
+	margin:0;
+	padding:0;
+}

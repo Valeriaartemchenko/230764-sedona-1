@@ -1,0 +1,55 @@
+.page-header {
+  position: relative;
+  min-height: 57px;
+}
+
+.page-header__toggle {
+  position: absolute;
+  top: 13px;
+  right: 30px;
+
+  display: block;
+  width: 26px;
+  height: 26px;
+
+  font-size: 0;
+
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.page-header__toggle::before {
+  content: "";
+  position: absolute;
+
+  width: 26px;
+  height: 4px;
+
+  background-color: $bg-color-blue;
+  box-shadow: 0 8px 0 0 $bg-color-blue,
+              0 16px 0 0 $bg-color-blue;
+}
+
+.page-header__toggle {
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+
+    width: 26px;
+    height: 4px;
+
+    background-color: $bg-color;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+}
+

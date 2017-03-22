@@ -1,0 +1,32 @@
+body {
+  text-align:center;
+}
+
+h1,h2,h3,p {
+  margin: 0;
+}
+
+@import "normalize.scss";
+@import "fonts.scss";
+@import "variables.scss";
+@import "blocks/wrapper.scss";
+@import "blocks/page-header.scss";
+@import "blocks/main-content.scss";
+@import "blocks/menu.scss";
+@import "blocks/logo.scss";
+@import "blocks/intro.scss";
+@import "blocks/reasons.scss";
+@import "blocks/reason.scss";
+@import "blocks/hotel-search.scss";
+@import "blocks/map.scss";
+@import "blocks/page-footer.scss";
+@import "blocks/hashtag.scss";
+@import "blocks/copyright.scss";
+@import "blocks/social-btns.scss";
+@import "blocks/social-btn.scss";
+@import "blocks/photo.scss";
+@import "blocks/photos.scss";
+@import "blocks/likes.scss";
+@import "blocks/video.scss";
+@import "blocks/player.scss";
+@import "blocks/feedback-form.scss";

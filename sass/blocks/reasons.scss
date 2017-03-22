@@ -1,0 +1,41 @@
+.reasons__header {
+  padding-top: 40px;
+  padding-bottom: 5px;
+}
+
+.reasons__title {
+  margin: 0;
+  font-family: "PT-sans-bold","Arial",sans-serif;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: -0.8px;
+}
+
+.reasons__text {
+  padding-top: 27px;
+  font-family: "PT-sans","Arial",sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+}
+
+.reasons__header {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reasons__row--blue {
+	background-color: $bg-color-blue;
+  color: #ffffff;
+}
+
+.reasons__row--grey {
+	background-color: $bg-color-grey;
+}
+
+.reasons__row--icon {
+  padding-top: 9px;
+  padding-bottom: 35px;
+}

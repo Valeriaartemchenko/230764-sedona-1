@@ -1,0 +1,27 @@
+@mixin no-list-styles() {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.menu__list {
+	@include no-list-styles;
+}
+
+.menu__link {
+	display:block;
+  padding-top: 19px;
+  padding-bottom: 18px;
+	padding-left: 90px;
+  padding-right: 90px;
+
+	background-color:$bg-color-blue;
+	text-decoration:none;
+
+	font-family:"PT-sans-bold", "Arial", sans-serif;
+	text-transform:uppercase;
+	color:#ffffff;
+
+	border-bottom:solid 1px #678fa8;
+}
+
