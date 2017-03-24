@@ -1,15 +1,27 @@
 .intro {
   width: 320px;
-  height: 304px;
+  height: 107px;
 
-  padding-top: 85px;
+  padding-top: 51px;
 
-	background-image:
+  background-image:
     url(../img/bg-intro-triangle-mobile.svg),
     url(../img/bg-back-mobile@1x.jpg);
     background-color: #34474e;
   background-repeat: no-repeat;
   background-position:
+    left 0px bottom 0px,
     left 0px bottom 0px;
   background-size: 100%,cover;
 }
+
+
+.intro--index {
+  height: 304px;
+  padding-top: 85px;
+
+  background-position:
+    left 0px bottom 0px;
+  background-size: 100%,cover;
+}
+

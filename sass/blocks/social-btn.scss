@@ -1,3 +1,25 @@
 .social-btn {
+  display: block;
+  width: 48px;
+  height: 48px;
+  font-size: 0;
 	background-color:#81b3d2;
+}
+
+.social-btn--twitter {
+  background-image: url(../img/icon-twitter.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+}
+
+.social-btn--facebook {
+  background-image: url(../img/icon-facebook.svg);
+  background-repeat: no-repeat;
+  background-position: 20px 15px;
+}
+
+.social-btn--youtube {
+  background-image: url(../img/icon-youtube.svg);
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
 }

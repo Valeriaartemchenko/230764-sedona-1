@@ -1,0 +1,29 @@
+.photos {
+  font-family: "PT-sans","Arial",sans-serif;
+}
+
+.photos__header {
+  padding: 0 20px;
+  padding-bottom: 29px;
+  @include border;
+}
+
+.photos__title {
+  margin: 0;
+  padding-top: 37px;
+  padding-bottom: 28px;
+  font-family: "PT-sans-bold","Arial",sans-serif;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: -1.1px;
+}
+
+.photos__text {
+  font-family: "PT-sans","Arial",sans-serif;
+  font-size: 13px;
+  line-height: 23px;
+  text-transform: uppercase;
+  letter-spacing: -0.6px;
+  text-align: center;
+}

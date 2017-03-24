@@ -1,0 +1,25 @@
+.likes {
+  display: flex;
+  padding-top: 11px;
+}
+
+.likes__btn {
+  display: block;
+  width: 22px;
+  height: 20px;
+  font-size: 0;
+  border: none;
+  background-image: url(../img/icon-like.svg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+}
+
+.likes__count {
+  padding-left: 15px;
+  font-family: "PT-sans-bold","Arial",sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.3px;
+}

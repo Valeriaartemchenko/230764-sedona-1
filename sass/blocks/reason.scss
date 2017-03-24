@@ -1,15 +1,21 @@
 .reason--image-town {
-	background-color: #ffd6d6;
+  height: 260px;
+  background-color: #ffd6d6;
 }
 
 .reason--image-bridge {
-	background-color: #e8b6a4;
+  height: 260px;
+  background-color: #e8b6a4;
 }
 
 .reason {
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+.reason--image {
+  padding: 0;
 }
 
 .reason--first {
@@ -45,7 +51,6 @@
   background-size: 40px 35px;
   background-position:18px 20px;
 }
-
 
 .reason__title {
   margin: 0;
@@ -97,12 +102,14 @@
   transform: translateY(-3px) translateX(-50%);
 }
 
+
 .reason--no-image .reason__title {
   font-family: "PT-sans-bold","Arial",sans-serif;
   font-size: 17px;
-  line-height: 21px;
+  line-height: 26px;
   text-transform: uppercase;
   letter-spacing: -0.8px;
+  line-height: 21px;
 }
 
 .reason--no-image .reason__number {
@@ -112,9 +119,4 @@
 .reason--no-image .reason__text {
   line-height: 21px;
   padding-bottom: 29px;
-}
-
-.reason--image {
-  height: 260px;
-  padding: 0;
 }

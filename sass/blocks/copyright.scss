@@ -1,0 +1,16 @@
+.copyright {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  margin:0 auto;
+  padding-top: 7px;
+}
+
+.copyright__text {
+  padding-top: 3px;
+  font-family: "PT-sans","Arial",sans-serif;
+  font-size: 13px;
+  line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
+}

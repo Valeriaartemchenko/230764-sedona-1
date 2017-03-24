@@ -1,11 +1,25 @@
-@mixin font-title() {
-	font-family:"PT-sans-bold";
-	font-size:18px;
-	font-style:uppercase;
+@mixin regular-font {
+  font-family: "PT-sans","Arial",sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  text-transform: uppercase;
+  letter-spacing: -0.4px;
 }
 
-@mixin no-list-styles() {
+@mixin title-font {
+	font-family: "PT-sans-bold","Arial",sans-serif;
+	font-size: 17px;
+	line-height: 26px;
+  text-transform: uppercase;
+  letter-spacing: -0.8px;
+}
+
+@mixin no-list-styles {
 	list-style:none;
 	margin:0;
 	padding:0;
+}
+
+@mixin border {
+  border-bottom: 1px solid #e5e5e5;
 }
