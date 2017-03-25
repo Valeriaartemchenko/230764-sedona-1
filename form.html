@@ -19,87 +19,86 @@
             <button class="page-header__toggle" type="button">Меню</button>
             <div class="logo">
                 <a href="index.html" class="logo__link">
-                     <img src="img/logo-sedona-mobile.svg" class="logo__image" width="104" height="85">
+                     <img src="img/logo-sedona-mobile.svg" class="logo__image" alt="Logo" width="104" height="85">
                 </a>
             </div>
         </header>
         <main class="main-content">
             <div class="intro">
-                <img class="intro__image" src="img/text-sedona.svg" width="230" height="38" >
+                <img class="intro__image" src="img/text-sedona.svg" alt="Sedona" width="230" height="38" >
             </div>
             <section class="feedback-form">
                 <div class="feedback-form__header">
                     <h1 class="feedback-form__title">Оставьте свой отзыв</h1>
-                    <p class="feefback-form__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+                    <p class="feedback-form__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
                 </div>
                 <form class="feedback-form__content" action="https://echo.htmlacademy.ru/" method="get">
                     <div class="feedback-form__group">
                         <div class="feedback-form__group-title">Представьтесь:</div>
                         <div class="feedback-form__wrap">
                             <label class="feedback-form__label" for="first-name">Имя*:</label>
-                            <input class="feedback-form__input" id="first-name" type="text" name="frs-name" value="Петр" required>
+                            <input class="feedback-form__input feedback-form__input--name" id="first-name" type="text" name="frs-name" value="Петр" required>
                         </div>
                         <div class="feedback-form__wrap">
                             <label class="feedback-form__label" for="second-name">Фамилия*:</label>
-                            <input class="feedback-form__input" id="second-name" type="text" name="scd-name" value="Иванов" required>
+                            <input class="feedback-form__input feedback-form__input--surname" id="second-name" type="text" name="scd-name" value="Иванов" required>
                         </div>
                         <div class="feedback-form__wrap">
                             <label class="feedback-form__label" for="fathers-name">Отчество:</label>
-                            <input class="feedback-form__label" class="feedback-form__input" id="fathers-name" type="text" name="father-name" value="Александрович">
+                            <input class="feedback-form__input feedback-form__input--fathname" id="fathers-name" type="text" name="father-name" value="Александрович">
                         </div>
                     </div>
                     <div class="feedback-form__group">
                         <div class="feedback-form__group-title">Контактная информация:</div>
-                        <div class="feedback-form__wrap">
-                            <label class="feedback-form__label" for="phone-numb">Контактный телефон*:</label>
-                            <input class="feedback-form__input" id="phone-numb" type="tel" name="phone" placeholder="Введите телефон" required>
+                        <div class="feedback-form__wrap feedback-form__wrap--contact feedback-form__wrap--error">
+                            <label class="feedback-form__label feedback-form__label--contact" for="phone-numb">Контактный телефон*:</label>
+                            <input class="feedback-form__input feedback-form__input--contact" id="phone-numb" type="tel" name="phone" placeholder="Введите телефон" required>
                             <button class="feedback-form__btn feedback-form__btn--tel"></button>
                             <div class="feedback-form__error">Ошибка, перепроверьте номер</div>
                         </div>
-                        <div class="feedback-form__wrap">
-                            <label class="feedback-form__label" for="email-address">Электронная почта*:</label>
-                            <input class="feedback-form__input" id="email-address" type="email" name="mail" placeholder="Введите email" required>
+                        <div class="feedback-form__wrap feedback-form__wrap--contact">
+                            <label class="feedback-form__label feedback-form__label--contact" for="email-address">Электронная почта*:</label>
+                            <input class="feedback-form__input feedback-form__input--email" id="email-address" type="email" name="mail" placeholder="Введите email" required>
                             <button class="feedback-form__btn feedback-form__btn--email"></button>
                         </div>
                     </div>
-                    <div class="feedback-form__group">
+                    <div class="feedback-form__group feedback-form__group--impression">
                         <div class="feedback-form__group-title">Вaше oбщее впечатление:</div>
-                        <div class="feedback-form__wrap">
+                        <div class="feedback-form__wrap feedback-form__wrap--impression">
                             <input class="feedback-form__radio" id="good" type="radio" name="evaluation" value="satisfied" checked>
-                            <label class="feedback-form__label-bold" for="good">Скорее положительное</label>
+                            <label class="feedback-form__label feedback-form__label--bold" for="good">Скорее положительное</label>
                         </div>
-                        <div class="feedback-form__wrap">
+                        <div class="feedback-form__wrap feedback-form__wrap--impression">
                             <input class="feedback-form__radio" id="bad" type="radio" name="evaluation" value="not-satisfied">
-                            <label class="feedback-form__label-bold" for="bad">Скорее отрицательное</label>
+                            <label class="feedback-form__label feedback-form__label--bold" for="bad">Скорее отрицательное</label>
                         </div>
-                        <div class="feedback-form__wrap">
+                        <div class="feedback-form__wrap feedback-form__wrap--impression">
                             <input class="feedback-form__radio" id="not-sure" type="radio" name="evaluation" value="dont-know">
-                            <label class="feedback-form__label-bold" for="not-sure">Затрудняюсь ответить</label>
+                            <label class="feedback-form__label feedback-form__label--bold" for="not-sure">Затрудняюсь ответить</label>
                         </div>
                     </div>
-                    <div class="feedback-form__group">
-                        <div class="feedback-form__group-title">Посещенные достопримечательности:</div>
-                        <div class="feedback-form__wrap">
+                    <div class="feedback-form__group feedback-form__group--visited">
+                        <div class="feedback-form__group-title feedback-form__group-title--visited">Посещенные достопримечательности:</div>
+                        <div class="feedback-form__wrap feedback-form__wrap--visited">
                             <input class="feedback-form__checkbox" id="bridge" type="checkbox" name="1" checked>
-                            <label class="feedback-form__label-bold" for="bridge">Мост Дьявола</label>
-                        <div class="feedback-form__wrap">
+                            <label class="feedback-form__label feedback-form__label--bold" for="bridge">Мост Дьявола</label>
+                        </div>
+                        <div class="feedback-form__wrap feedback-form__wrap--visited">
                             <input class="feedback-form__checkbox" id="park" type="checkbox" name="2" checked>
-                            <label class="feedback-form__label-bold" for="park">Слайд-парк</label>
+                            <label class="feedback-form__label feedback-form__label--bold" for="park">Слайд-парк</label>
                         </div>
-                        <div class="feedback-form__wrap">
+                        <div class="feedback-form__wrap feedback-form__wrap--visited">
                             <input class="feedback-form__checkbox" id="mountain" type="checkbox" name="3">
-                            <label class="feedback-form__label-bold" for="mountain">Гора-колокол</label>
+                            <label class="feedback-form__label feedback-form__label--bold" for="mountain">Гора-Колокол</label>
                         </div>
-                        <div class="feedback-form__wrap">
+                        <div class="feedback-form__wrap feedback-form__wrap--visited-last">
                             <input class="feedback-form__checkbox" id="rocks" type="checkbox" name="4" checked>
-                            <label class="feedback-form__label-bold" for="rocks">Красные скалы</label>
+                            <label class="feedback-form__label feedback-form__label--bold" for="rocks">Красные скалы</label>
                         </div>
                     </div>
-                    <div class="feedback-form__group">
-                        <div class="feedback-form__wrap">
-                            <div class="feedback-form__group-title">Опишите свои эмоции:</div>
-                            <textarea class="feedback-form__textarea" placeholder="Опишите подробно все свои восторги"></textarea>
-                        </div>
+                    <div class="feedback-form__group feedback-form__group--textarea">
+                        <div class="feedback-form__group-title">Опишите свои эмоции:</div>
+                        <textarea class="feedback-form__textarea" placeholder="Опишите подробно все свои восторги"></textarea>
                     </div>
                     <button class="feedback-form__submit" type="submit">Отправить отзыв</button>
                 </form>
