@@ -3,6 +3,12 @@
 	width: 320px;
 	height: 203px;
   background-image: url(../img/video-mobile@1x.jpg);
+  @media ($tablet-width) {
+    width: 648px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../img/video-tablet@1x.jpg);
+  }
 }
 
 .player__control-panel {
@@ -11,12 +17,21 @@
   width: 280px;
   height: 110px;
   padding-left: 20px;
+  @media ($tablet-width) {
+    top : 407px;
+    width: 648px;
+    height: 93px;
+    padding-left: 0;
+  }
 }
 
 .player__control-progress {
   height: 45px;
   position: relative;
   background-color: rgba(0,0,0, 0.6);
+  @media ($tablet-width) {
+    height: 93px;
+  }
 }
 
 .player__control-progress::before {
@@ -29,6 +44,12 @@
   height: 3px;
 
   background-color: rgba(255,255,255,0.3);
+
+  @media ($tablet-width) {
+    width: 390px;
+    top: 45px;
+    left: 92px;
+  }
 }
 
 .player__control-progress::after {
@@ -42,6 +63,10 @@
   border-radius: 50%;
 
   background-color: #ffffff;
+  @media ($tablet-width) {
+    top: 42px;
+    left: 206px;
+  }
 }
 
 .player__control-btns {
@@ -52,6 +77,10 @@
   padding-left: 24px;
   padding-right: 23px;
   background-color: #f2f2f2;
+  @media ($tablet-width) {
+    height: 0;
+    padding: 0;
+  }
 }
 
 .player__replay {

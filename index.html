@@ -19,13 +19,17 @@
           <button class="page-header__toggle" type="button">Меню</button>
           <div class="logo">
             <a class="logo__link">
-              <img src="img/logo-sedona-mobile.svg" class="logo__image" alt="Седона-лого" width="104" height="84">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg 2x" width="187">
+                <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+                <img src="img/logo-sedona-mobile.svg" class="logo__image" alt="Седона-лого" width="104" height="84">
+              </picture>
             </a>
           </div>
         </header>
         <main class="main-content">
           <div class="intro intro--index">
-            <img src="img/text-sedona-index.svg" class="intro__image" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!" width="280" height="220">
+            <img src="img/text-sedona-index.svg" class="intro__image--index" alt="Welcome to the gorgeous Sedona. Because the Grand Canyon sucks!">
           </div>
           <article class="reasons">
             <div class="reasons__header">
@@ -33,7 +37,7 @@
               <p class="reasons__text">Рассмотрим 5 причин, по которым Седона круче чем гранд каньон!</p>
             </div>
             <div class="reasons__row reasons__row--blue">
-              <div class="reason reason--first">
+              <div class="reason reason--town">
                 <h2 class="reason__title">Настоящий городок</h2>
                 <div class="reason__number">№1</div>
                 <p class="reason__text">Седона не аттракцион для туристов, там течет своя жизнь.</p>
@@ -57,7 +61,7 @@
               </div>
             </div>
             <div class="reasons__row reasons__row--blue">
-              <div class="reason">
+              <div class="reason reason--bridge">
                 <h2 class="reason__title">Там есть мост дьявола</h2>
                 <div class="reason__number">№2</div>
                 <p class="reason__text">Да, по нему можно пройти! Если вы осмелитесь, конечно</p>
@@ -70,7 +74,7 @@
               <div class="reason reason--no-image">
                 <h2 class="reason__title">Небольшая площадь</h2>
                 <div class="reason__number">№3</div>
-                <p class="reason__text">Все достопримечательности находяться очень близко</p>
+                <p class="reason__text">Все достопримеча- тельности находяться очень близко</p>
               </div>
               <div class="reason reason--no-image">
                 <h2 class="reason__title">Красивая дорога</h2>

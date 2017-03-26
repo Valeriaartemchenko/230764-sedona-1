@@ -1,5 +1,11 @@
 .logo {
   height: 56px;
+  @media ($tablet-width) {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
 
 .logo__image {

@@ -19,13 +19,17 @@
             <button class="page-header__toggle" type="button">Меню</button>
             <div class="logo">
                 <a href="index.html" class="logo__link">
-                     <img src="img/logo-sedona-mobile.svg" class="logo__image" alt="Logo" width="104" height="85">
+                    <picture>
+                        <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg" width="187">
+                        <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+                        <img src="img/logo-sedona-mobile.svg" class="logo__image" alt="Седона-лого" width="104" height="84">
+                    </picture>
                 </a>
             </div>
         </header>
         <main class="main-content">
             <div class="intro">
-                <img class="intro__image" src="img/text-sedona.svg" alt="Sedona" width="230" height="38" >
+                <img class="intro__image" src="img/text-sedona.svg" alt="Sedona">
             </div>
             <section class="feedback-form">
                 <div class="feedback-form__header">

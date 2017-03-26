@@ -4,6 +4,9 @@
   width: 130px;
   margin:0 auto;
   padding-top: 7px;
+  @media ($desktop-width) {
+    margin-right: 45px;
+  }
 }
 
 .copyright__text {

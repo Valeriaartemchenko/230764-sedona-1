@@ -17,6 +17,12 @@
   background-color: transparent;
   cursor: pointer;
   border: none;
+  @media ($tablet-width) {
+    display: none;
+  }
+  @media ($desktop-width) {
+    display: none;
+  }
 }
 
 .page-header__toggle::before {

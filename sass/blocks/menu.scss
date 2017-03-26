@@ -6,6 +6,9 @@
 
 .menu__list {
 	@include no-list-styles;
+  @media ($tablet-width) {
+    display: flex;
+  }
 }
 
 .menu__link {
@@ -23,5 +26,56 @@
 	color:#ffffff;
 
 	border-bottom:solid 1px #678fa8;
+
+  @media ($tablet-width) {
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    padding-right: 0px;
+
+    background-color:$bg-color;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    color:#000000;
+    border-bottom: none;
+  }
+
+  @media ($desktop-width) {
+    padding-left: 135px;
+    padding-right: 70px;
+  }
+}
+
+.menu__item:first-child .menu__link {
+  @media ($tablet-width) {
+    padding-left: 50px;
+    padding-right: 22px;
+  }
+
+  @media ($desktop-width) {
+    padding-left: 90px;
+  }
+}
+
+.menu__item:last-child .menu__link {
+  @media ($desktop-width) {
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+}
+
+.menu__item {
+  @media ($tablet-width) {
+    &:nth-child(2) {
+      margin-right: 155px;
+    }
+  }
+
+  @media ($desktop-width) {
+    &:nth-child(2) {
+      margin-right: 175px;
+    }
+  }
 }
 

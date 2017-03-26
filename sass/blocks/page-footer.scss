@@ -1,4 +1,9 @@
 .page-footer {
   padding-top: 30px;
   padding-bottom: 30px;
+  @media ($tablet-width) {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 32px;
+  }
 }

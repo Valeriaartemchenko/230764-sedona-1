@@ -4,8 +4,12 @@
 
 .photos__header {
   padding: 0 20px;
-  padding-bottom: 29px;
+  margin-bottom: 29px;
   @include border;
+  @media ($tablet-width) {
+    border: none;
+    margin-bottom: 70px;
+  }
 }
 
 .photos__title {
@@ -17,6 +21,10 @@
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: -1.1px;
+  @media ($tablet-width) {
+    font-size: 29px;
+    padding-top: 74px;
+  }
 }
 
 .photos__text {
@@ -26,4 +34,19 @@
   text-transform: uppercase;
   letter-spacing: -0.6px;
   text-align: center;
+  @media ($tablet-width) {
+    width: 435px;
+    padding-top: 3px;
+    margin: 0 auto;
+  }
+}
+
+.photos__container {
+  @media ($tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    width: 648px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
 }

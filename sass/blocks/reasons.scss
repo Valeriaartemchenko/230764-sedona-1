@@ -1,6 +1,13 @@
 .reasons__header {
   padding-top: 40px;
   padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media ($tablet-width) {
+    padding-top: 49px;
+    padding-bottom: 49px;
+  }
 }
 
 .reasons__title {
@@ -10,6 +17,13 @@
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: -0.8px;
+  @media ($tablet-width) {
+    width: 450px;
+    margin: 0 auto;
+    font-size: 20px;
+    letter-spacing: -1.3px;
+  }
+
 }
 
 .reasons__text {
@@ -19,11 +33,16 @@
   line-height: 26px;
   text-transform: uppercase;
   letter-spacing: -0.4px;
+  @media ($tablet-width) {
+    padding-top: 29px;
+  }
 }
 
-.reasons__header {
-  padding-left: 20px;
-  padding-right: 20px;
+.reasons__row {
+  @media ($tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .reasons__row--blue {
@@ -38,4 +57,7 @@
 .reasons__row--icon {
   padding-top: 9px;
   padding-bottom: 35px;
+  @media ($tablet-width) {
+    padding: 0px;
+  }
 }
