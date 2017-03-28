@@ -4,6 +4,16 @@
   height: 48px;
   font-size: 0;
 	background-color:#81b3d2;
+  @media ($desktop-width) {
+    width: 47px;
+    margin-right: 5px;
+  }
+}
+
+.social-btn:last-child {
+  @media ($desktop-width) {
+    margin-right: 0px;
+  }
 }
 
 .social-btn--twitter {

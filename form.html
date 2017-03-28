@@ -37,37 +37,41 @@
                     <p class="feedback-form__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
                 </div>
                 <form class="feedback-form__content" action="https://echo.htmlacademy.ru/" method="get">
-                    <div class="feedback-form__group">
-                        <div class="feedback-form__group-title">Представьтесь:</div>
-                        <div class="feedback-form__wrap">
+                    <div class="feedback-form__group feedback-form__group--name">
+                        <div class="feedback-form__group-title feedback-form__group-title--name">Представьтесь:</div>
+                        <div class="feedback-form__wrap feedback-form__wrap--name">
                             <label class="feedback-form__label" for="first-name">Имя*:</label>
                             <input class="feedback-form__input feedback-form__input--name" id="first-name" type="text" name="frs-name" value="Петр" required>
                         </div>
-                        <div class="feedback-form__wrap">
+                        <div class="feedback-form__wrap feedback-form__wrap--name">
                             <label class="feedback-form__label" for="second-name">Фамилия*:</label>
                             <input class="feedback-form__input feedback-form__input--surname" id="second-name" type="text" name="scd-name" value="Иванов" required>
                         </div>
-                        <div class="feedback-form__wrap">
+                        <div class="feedback-form__wrap feedback-form__wrap--name">
                             <label class="feedback-form__label" for="fathers-name">Отчество:</label>
                             <input class="feedback-form__input feedback-form__input--fathname" id="fathers-name" type="text" name="father-name" value="Александрович">
                         </div>
                     </div>
-                    <div class="feedback-form__group">
-                        <div class="feedback-form__group-title">Контактная информация:</div>
+                    <div class="feedback-form__group feedback-form__group--contact">
+                        <div class="feedback-form__group-title feedback-form__group-title--contact">Контактная информация:</div>
                         <div class="feedback-form__wrap feedback-form__wrap--contact feedback-form__wrap--error">
                             <label class="feedback-form__label feedback-form__label--contact" for="phone-numb">Контактный телефон*:</label>
-                            <input class="feedback-form__input feedback-form__input--contact" id="phone-numb" type="tel" name="phone" placeholder="Введите телефон" required>
-                            <button class="feedback-form__btn feedback-form__btn--tel"></button>
+                            <div class="feedback-form__input-container feedback-form__input-container--contact">
+                                <input class="feedback-form__input feedback-form__input--contact" id="phone-numb" type="tel" name="phone" placeholder="Введите телефон" required>
+                                <button class="feedback-form__btn feedback-form__btn--tel"></button>
+                            </div>
                             <div class="feedback-form__error">Ошибка, перепроверьте номер</div>
                         </div>
                         <div class="feedback-form__wrap feedback-form__wrap--contact">
                             <label class="feedback-form__label feedback-form__label--contact" for="email-address">Электронная почта*:</label>
-                            <input class="feedback-form__input feedback-form__input--email" id="email-address" type="email" name="mail" placeholder="Введите email" required>
-                            <button class="feedback-form__btn feedback-form__btn--email"></button>
+                            <div class="feedback-form__input-container feedback-form__input-container--email">
+                                <input class="feedback-form__input feedback-form__input--email" id="email-address" type="email" name="mail" placeholder="Введите email" required>
+                                <button class="feedback-form__btn feedback-form__btn--email"></button>
+                            </div>
                         </div>
                     </div>
                     <div class="feedback-form__group feedback-form__group--impression">
-                        <div class="feedback-form__group-title">Вaше oбщее впечатление:</div>
+                        <div class="feedback-form__group-title feedback-form__group-title--impression">Вaше oбщее впечатление:</div>
                         <div class="feedback-form__wrap feedback-form__wrap--impression">
                             <input class="feedback-form__radio" id="good" type="radio" name="evaluation" value="satisfied" checked>
                             <label class="feedback-form__label feedback-form__label--bold" for="good">Скорее положительное</label>

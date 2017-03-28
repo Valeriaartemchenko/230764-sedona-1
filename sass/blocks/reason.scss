@@ -219,10 +219,6 @@
     width: 33.33333%;
     border: none;
   }
-
-  @media ($tablet-width) {
-    padding-bottom: 65px;
-  }
 }
 
 .reason--no-image:not(:first-child) .reason__title {
@@ -267,7 +263,7 @@
   line-height: 21px;
   margin-bottom: 0px;
   @media ($tablet-width) {
-    width: 270px;
+    width: 170px;
     margin: 0 auto;
   }
 }

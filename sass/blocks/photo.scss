@@ -14,12 +14,20 @@
     border: none;
     background-color: #f2f2f2;
   }
+  @media ($desktop-width) {
+    width: 400px;
+    padding-bottom: 0px;
+    position: relative;
+  }
 }
 
 .photo .photo__picture {
   @media ($tablet-width) {
     width: 324px;
     height: 267px;
+  }
+  @media ($desktop-width) {
+    width: 400px;
   }
 }
 
@@ -28,12 +36,19 @@
     width: 648px;
     padding-bottom: 20px;
   }
+  @media ($desktop-width) {
+    width: 1200px;
+    padding-bottom: 0px;
+  }
 }
 
 .photo:first-child .photo__picture {
   @media ($tablet-width) {
     width: 648px;
     height: 400px;
+  }
+  @media ($desktop-width) {
+    width: 1200px;
   }
 }
 
@@ -48,6 +63,13 @@
   @media ($tablet-width) {
     padding-left: 20px;
   }
+  @media ($desktop-width) {
+    position: relative;
+    padding-top: 19px;
+    margin-top: -85px;
+    color: #ffffff;
+    background-color: rgba(0,0,0, 0.3);
+  }
 }
 
 .photo__author {
@@ -57,6 +79,12 @@
   @media ($tablet-width) {
     padding-top: 4px;
     padding-left: 20px;
+  }
+  @media ($desktop-width) {
+    position: relative;
+    padding-bottom: 20px;
+    color: #ffffff;
+    background-color: rgba(0,0,0, 0.3);
   }
 }
 

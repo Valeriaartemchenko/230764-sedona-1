@@ -3,6 +3,9 @@
   @media ($tablet-width) {
     padding-bottom: 42px;
   }
+  @media ($desktop-width) {
+    margin-bottom: 46px;
+  }
 }
 
 .video__header {
@@ -13,6 +16,10 @@
   @media ($tablet-width) {
     padding-top: 70px;
     margin-bottom: 40px;
+  }
+  @media ($desktop-width) {
+    padding-top: 73px;
+    margin-bottom: 36px;
   }
 }
 
@@ -40,5 +47,8 @@
     width: 420px;
     margin: 0 auto;
     padding-top: 32px;
+  }
+  @media ($desktop-width) {
+    line-height: 24px;
   }
 }
