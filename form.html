@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
@@ -87,25 +88,27 @@
                     </div>
                     <div class="feedback-form__group feedback-form__group--visited">
                         <div class="feedback-form__group-title feedback-form__group-title--visited">Посещенные достопримечательности:</div>
-                        <div class="feedback-form__wrap feedback-form__wrap--visited">
-                            <input class="feedback-form__checkbox" id="bridge" type="checkbox" name="1" checked>
-                            <label class="feedback-form__label feedback-form__label--bold" for="bridge">Мост Дьявола</label>
-                        </div>
-                        <div class="feedback-form__wrap feedback-form__wrap--visited">
-                            <input class="feedback-form__checkbox" id="park" type="checkbox" name="2" checked>
-                            <label class="feedback-form__label feedback-form__label--bold" for="park">Слайд-парк</label>
-                        </div>
-                        <div class="feedback-form__wrap feedback-form__wrap--visited">
-                            <input class="feedback-form__checkbox" id="mountain" type="checkbox" name="3">
-                            <label class="feedback-form__label feedback-form__label--bold" for="mountain">Гора-Колокол</label>
-                        </div>
-                        <div class="feedback-form__wrap feedback-form__wrap--visited-last">
-                            <input class="feedback-form__checkbox" id="rocks" type="checkbox" name="4" checked>
-                            <label class="feedback-form__label feedback-form__label--bold" for="rocks">Красные скалы</label>
+                        <div class="feedback-form__container--visited">
+                            <div class="feedback-form__wrap feedback-form__wrap--visited feedback-form__wrap--bridge" >
+                                <input class="feedback-form__checkbox" id="bridge" type="checkbox" name="1" checked>
+                                <label class="feedback-form__label feedback-form__label--bold" for="bridge">Мост Дьявола</label>
+                            </div>
+                            <div class="feedback-form__wrap feedback-form__wrap--visited feedback-form__wrap--park">
+                                <input class="feedback-form__checkbox" id="park" type="checkbox" name="2" checked>
+                                <label class="feedback-form__label feedback-form__label--bold" for="park">Слайд-парк</label>
+                            </div>
+                            <div class="feedback-form__wrap feedback-form__wrap--visited feedback-form__wrap--mount">
+                                <input class="feedback-form__checkbox" id="mountain" type="checkbox" name="3">
+                                <label class="feedback-form__label feedback-form__label--bold" for="mountain">Гора-Колокол</label>
+                            </div>
+                            <div class="feedback-form__wrap feedback-form__wrap--visited feedback-form__wrap--rock">
+                                <input class="feedback-form__checkbox" id="rocks" type="checkbox" name="4" checked>
+                                <label class="feedback-form__label feedback-form__label--bold" for="rocks">Красные скалы</label>
+                            </div>
                         </div>
                     </div>
                     <div class="feedback-form__group feedback-form__group--textarea">
-                        <div class="feedback-form__group-title">Опишите свои эмоции:</div>
+                        <div class="feedback-form__group-title feedback-form__group-title--textarea">Опишите свои эмоции:</div>
                         <textarea class="feedback-form__textarea" placeholder="Опишите подробно все свои восторги"></textarea>
                     </div>
                     <button class="feedback-form__submit" type="submit">Отправить отзыв</button>
