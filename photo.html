@@ -21,10 +21,10 @@
     		<div class="logo">
     			<a href="index.html" class="logo__link">
     				<picture>
-              <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg" width="187">
-              <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
-              <img src="img/logo-sedona-mobile.svg" class="logo__image" alt="Седона-лого" width="104" height="84">
-            </picture>
+                        <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
+                        <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
+                        <img src="img/logo-sedona-mobile.svg" class="logo__image" alt="Седона-лого">
+                    </picture>
     			</a>
     		</div>
     	</header>
@@ -39,7 +39,13 @@
                 </div>
                 <div class="photos__container">
                     <div class="photo">
-                        <a href="#"><img src="img/photo-1-mobile@1x.jpg" class="photo__picture" alt="Просторы" width="280" height="280"></a>
+                        <a href="#">
+                            <picture>
+                                <source media="(min-width:1200px)" srcset="img/photo-1-desktop@1x.jpg 1x, img/photo-1-desktop@2x.jpg 2x">
+                                <source media="(min-width:768px)" srcset="img/photo-1-tablet@1x.jpg 1x, img/photo-1-tablet@2x.jpg 2x">
+                                <img src="img/photo-1-mobile@1x.jpg" srcset="img/photo-1-mobile@2x.jpg 2x" class="photo__picture" alt="Просторы">
+                            </picture>
+                        </a>
                         <div class="photo__title">Неродные просторы</div>
                         <p class="photo__author">Автор фото: Борис</p>
                         <div class="likes">
@@ -48,7 +54,13 @@
                         </div>
                     </div>
                     <div class="photo">
-                        <a href=""><img src="img/photo-2-mobile@1x.jpg" class="photo__picture" alt="Растительность" width="280" height="280"></a>
+                        <a href="">
+                            <picture>
+                                <source media="(min-width:1200px)" srcset="img/photo-2-desktop@1x.jpg 1x, img/photo-2-desktop@2x.jpg 2x">
+                                <source media="(min-width:768px)" srcset="img/photo-2-tablet@1x.jpg 1x, img/photo-2-tablet@2x.jpg 2x">
+                                <img src="img/photo-2-mobile@1x.jpg" srcset="img/photo-2-mobile@2x.jpg 2x" class="photo__picture" alt="Растительность">
+                            </picture>
+                        </a>
                         <div class="photo__title">Местная растительность</div>
                         <p class="photo__author">Автор фото: Сергей</p>
                         <div class="likes">
@@ -57,7 +69,13 @@
                         </div>
                     </div>
                     <div class="photo">
-                        <a href=""><img src="img/photo-3-mobile@1x.jpg" class="photo__picture" alt="Дорога" width="280" height="280"></a>
+                        <a href="">
+                            <picture>
+                                <source media="(min-width:1200px)" srcset="img/photo-3-desktop@1x.jpg 1x, img/photo-3-desktop@2x.jpg 2x">
+                                <source media="(min-width:768px)" srcset="img/photo-3-tablet@1x.jpg 1x, img/photo-3-tablet@2x.jpg 2x">
+                                <img src="img/photo-3-mobile@1x.jpg" srcset="img/photo-3-mobile@2x.jpg 2x" class="photo__picture" alt="Дорога">
+                            </picture>
+                        </a>
                         <div class="photo__title">Дорога на север</div>
                         <p class="photo__author">Автор фото: Петр</p>
                         <div class="likes">
@@ -66,7 +84,13 @@
                         </div>
                     </div>
                     <div class="photo">
-                        <a href=""><img src="img/photo-4-mobile@1x.jpg" class="photo__picture" alt="Мост" width="280" height="280"></a>
+                        <a href="">
+                            <picture>
+                                <source media="(min-width:1200px)" srcset="img/photo-4-desktop@1x.jpg 1x, img/photo-4-desktop@2x.jpg 2x">
+                                <source media="(min-width:768px)" srcset="img/photo-4-tablet@1x.jpg 1x, img/photo-4-tablet@2x.jpg 2x">
+                                <img src="img/photo-4-mobile@1x.jpg" srcset="img/photo-4-mobile@2x.jpg 2x" class="photo__picture" alt="Мост">
+                            </picture>
+                        </a>
                         <div class="photo__title">Мост дьявола</div>
                         <p class="photo__author">Автор фото: Антон</p>
                         <div class="likes">
