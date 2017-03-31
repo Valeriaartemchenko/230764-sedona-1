@@ -1,9 +1,9 @@
 .wrapper {
   box-sizing: border-box;
   width: 320px;
-  outline: 1px solid red;
   margin: 0 auto;
   background: white;
+  box-shadow: 0 0 9px 0 #dbdbdb;
   @media ($tablet-width) {
     width: 768px;
   }

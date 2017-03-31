@@ -27,23 +27,23 @@
 }
 
 .reason__number {
-  margin-bottom: 12px;
+  margin-bottom: 15px;
   font-size: 14px;
   line-height: 21px;
   @media ($tablet-width) {
-    margin-bottom: 20px;
+    margin-bottom: 21px;
   }
 }
 
 .reason__text {
-  margin-bottom: 40px;
+  margin-bottom: 41px;
   font-family: "PT-sans","Arial",sans-serif;
   font-size: 13px;
   line-height: 21px;
   text-transform: uppercase;
   letter-spacing: -0.4px;
   @media ($tablet-width) {
-    line-height: 21px;
+    line-height: 22px;
   }
 }
 
@@ -108,7 +108,7 @@
   @media ($desktop-width) {
     width: 170px;
     margin: 0 auto;
-    padding-top: 5px;
+    padding-top: 7px;
   }
 }
 
@@ -124,10 +124,15 @@
   text-align: left;
   padding-top: 26px;
   padding-left: 70px;
+  padding-right: 30px;
   @media ($tablet-width) {
     text-align: center;
     padding-top: 159px;
-    padding-left: 50px;
+    padding-left: 35px;
+    padding-bottom: 17px;
+  }
+  @media ($desktop-width) {
+    padding-bottom: 0px;
   }
 }
 
@@ -182,7 +187,10 @@
 }
 
 .reason--icon .reason__title {
-  padding-bottom: 14px;
+  padding-bottom: 16px;
+  @media ($desktop-width) {
+    padding-bottom: 13px;
+  }
 }
 
 .reason--icon .reason__text {
@@ -202,12 +210,12 @@
 
 .reason--no-image {
   position: relative;
-  padding-top: 30px;
+  padding-top: 32px;
   padding-left: 35px;
   padding-right: 35px;
   padding-bottom: 30px;
   @media ($tablet-width) {
-    padding-top: 44px;
+    padding-top: 45px;
     padding-bottom: 43px;
     padding-left: 45px;
     padding-right: 45px;
@@ -249,14 +257,14 @@
 }
 
 .reason--no-image .reason__number {
-  padding-bottom: 5px;
+  padding-bottom: 1px;
   @media ($tablet-width) {
     padding-bottom: 2px;
   }
 }
 
 .reason--no-image .reason__text {
-  line-height: 21px;
+  line-height: 22px;
   margin-bottom: 0px;
   @media ($tablet-width) {
     width: 170px;
@@ -265,7 +273,7 @@
 }
 
 .reason--no-image:not(:first-child) .reason__text {
-  margin-top: -2px;
+  margin-top: 0px;
 }
 
 .reason--no-image:not(:last-child)::after {

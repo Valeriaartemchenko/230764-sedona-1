@@ -2,8 +2,18 @@
   display: block;
   width: 48px;
   height: 48px;
+  box-sizing: border-box;
   font-size: 0;
 	background-color:#81b3d2;
+
+  &:hover {
+    background-color:#669ec0;
+  }
+
+  &:active {
+    background-color:#5496bd;
+  }
+
   @media ($desktop-width) {
     width: 47px;
     margin-right: 5px;
@@ -16,20 +26,11 @@
   }
 }
 
-.social-btn--twitter {
-  background-image: url(../img/icon-twitter.svg);
-  background-repeat: no-repeat;
-  background-position: 15px 15px;
+.social-btn--icon {
+  padding-top: 15px;
+  fill: #ffffff;
 }
 
-.social-btn--facebook {
-  background-image: url(../img/icon-facebook.svg);
-  background-repeat: no-repeat;
-  background-position: 20px 15px;
-}
-
-.social-btn--youtube {
-  background-image: url(../img/icon-youtube.svg);
-  background-repeat: no-repeat;
-  background-position: 15px 15px;
+.social-btn:active .social-btn--icon {
+  fill: rgba(255,255,255, 0.3);
 }

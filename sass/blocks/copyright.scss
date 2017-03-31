@@ -24,3 +24,16 @@
     padding-top: 4px;
   }
 }
+
+.copyright__logo {
+  &:hover {
+    .copyright__icon {
+      fill: #81b3d2;
+    }
+  }
+  &:active {
+    .copyright__icon {
+      fill: #b2b2b2;
+    }
+  }
+}

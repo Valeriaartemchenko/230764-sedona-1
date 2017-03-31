@@ -1,12 +1,12 @@
 .reasons__header {
   padding-top: 40px;
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   padding-left: 20px;
   padding-right: 20px;
 
   @media ($tablet-width) {
     padding-top: 49px;
-    padding-bottom: 49px;
+    padding-bottom: 51px;
   }
 }
 
@@ -56,7 +56,7 @@
 
 .reasons__row--icon {
   padding-top: 9px;
-  padding-bottom: 35px;
+  padding-bottom: 37px;
   @media ($tablet-width) {
     padding: 0px;
   }
