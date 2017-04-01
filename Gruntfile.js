@@ -33,7 +33,7 @@ module.exports = function(grunt) {
           report: "gzip"
         },
         files: {
-          "css/style.min.css": [css/style.css]
+          "css/style.min.css": ["css/style.css"]
         }
       }
     },
