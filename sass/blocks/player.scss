@@ -141,3 +141,17 @@
     fill: #ffffff;
   }
 }
+
+.player__btn {
+  outline:none;
+}
+
+.player__btn:hover .player__icon path,
+.player__btn:hover .player__icon polygon {
+  fill: #333333;
+}
+
+.player__btn:active .player__icon path,
+.player__btn:active .player__icon polygon {
+  fill: #c1c1c1;
+}

@@ -551,8 +551,6 @@
   }
 }
 
-
-
 .feedback-form__input--contact {
   width: 222px;
   height: 58px;
@@ -612,9 +610,6 @@
 .feedback-form__input-container--email {
   @media ($tablet-width) {
     height: 59px;
-  }
-  @media ($desktop-width) {
-
   }
 }
 
@@ -703,6 +698,7 @@
   color: #000000;
   border: none;
   background-color: #f2f2f2;
+  outline: none;
   @media ($tablet-width) {
     width: 648px;
     padding-top: 17px;
