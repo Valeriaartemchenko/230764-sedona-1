@@ -6,7 +6,6 @@
   "devDependencies": {
     "@htmlacademy/editorconfig-cli": "0.1.x",
     "autoprefixer": "6.7.x",
-    "csso": "^3.0.1",
     "grunt": "^1.0.1",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-clean": "^1.0.0",
