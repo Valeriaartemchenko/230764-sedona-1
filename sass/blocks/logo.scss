@@ -2,6 +2,7 @@
   height: 56px;
   @media ($tablet-width) {
     position: absolute;
+    z-index: 5;
     top: 0px;
     left: 50%;
     transform: translateX(-50%);
@@ -10,9 +11,12 @@
 
 .logo__image {
   height: 84px;
-  z-index: 2;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 5;
   @media ($desktop-width) {
     width: 188px;
     height: 96px;
   }
 }
+

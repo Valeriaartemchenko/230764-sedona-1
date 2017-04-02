@@ -5,8 +5,9 @@ module.exports = function(grunt) {
 
   grunt.initConfig({
     clean: {
-      build: "build"
+      build: ["build"]
     },
+
     copy: {
       build: {
         files: [{
@@ -122,10 +123,10 @@ module.exports = function(grunt) {
       html: {
         files: ["*.html"],
         tasks: ["copy:html"]
-      }
+      },
       style: {
         files: ["sass/**/*.{scss,sass}"],
-        tasks: ["sass", "post`css","csso"]
+        tasks: ["sass", "postcss","csso"]
       }
     }
   });
@@ -140,5 +141,5 @@ module.exports = function(grunt) {
     "csso",
     "symbols",
     "imagemin"
-    ]);
+  ]);
 };

@@ -1,5 +1,6 @@
 .player {
-  position: relative;
+  position:relative;
+  display: flex;
 	width: 320px;
 	height: 203px;
 
@@ -38,49 +39,51 @@
   background-color: rgba(0,0,0, 0.6);
   @media ($tablet-width) {
     height: 93px;
+    background-color: transparent;
   }
 }
 
-.player__control-progress::before {
-  content: "";
+.player__control-grid {
+  width: 235px;
+  height: 3px;
   position: absolute;
   top: 23px;
   left: 22px;
-
-  width: 235px;
-  height: 3px;
+  z-index: 5;
 
   background-color: rgba(255,255,255,0.3);
-
   @media ($tablet-width) {
     width: 390px;
     top: 45px;
-    left: 92px;
+    left: 95px;
   }
   @media ($desktop-width) {
     width: 540px;
   }
 }
 
-.player__control-progress::after {
-  content: "";
+.player__control-bar {
+  width: 9px;
+  height: 9px;
   position: absolute;
   top: 19px;
   left: 57px;
-
-  width: 9px;
-  height: 9px;
+  z-index: 5;
   border-radius: 50%;
-
   background-color: #ffffff;
   @media ($tablet-width) {
     top: 42px;
-    left: 206px;
+    left: 205px;
   }
+}
+
+.player__control-bar:hover {
+  cursor: pointer;
 }
 
 .player__control-btns {
   display: flex;
+  justify-content: space-between;
   height: 65px;
   box-sizing: border-box;
   padding-top: 21px;
@@ -88,9 +91,12 @@
   padding-right: 23px;
   background-color: #f2f2f2;
   @media ($tablet-width) {
-    position: relative;
-    height: 0;
+    position: absolute;
+    bottom: 0;
+    width: 648px;
+    height: 93px;
     padding: 0;
+    background-color: rgba(0,0,0, 0.6);
   }
 }
 
@@ -102,9 +108,8 @@
   border: none;
   background-color: transparent;
   @media ($tablet-width) {
-    position: absolute;
-    top: -60px;
-    left: 35px;
+    margin-left: 28px;
+    margin-top: 35px;
   }
 }
 
@@ -116,9 +121,7 @@
   border: none;
   background-color: transparent;
   @media ($tablet-width) {
-    position: absolute;
-    top: -58px;
-    right: 63px;
+    margin-top: 36px;
   }
 }
 
@@ -129,9 +132,8 @@
   border: none;
   background-color: transparent;
   @media ($tablet-width) {
-    position: absolute;
-    top: -60px;
-    right: 40px;
+    margin-right: 45px;
+    margin-top: 36px;
   }
 }
 
