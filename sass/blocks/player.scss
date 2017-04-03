@@ -98,6 +98,10 @@
     padding: 0;
     background-color: rgba(0,0,0, 0.6);
   }
+  @media ($desktop-width) {
+    width: 800px;
+    height: 93px;
+  }
 }
 
 .player__replay {
@@ -134,6 +138,9 @@
   @media ($tablet-width) {
     margin-right: 45px;
     margin-top: 36px;
+  }
+  @media ($desktop-width) {
+    margin-right: 50px;
   }
 }
 

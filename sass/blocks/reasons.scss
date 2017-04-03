@@ -48,6 +48,10 @@
 .reasons__row--blue {
 	background-color: $bg-color-blue;
   color: #ffffff;
+  @media ($tablet-width) {
+    height: 256px;
+    overflow: hidden;
+  }
 }
 
 .reasons__row--grey {

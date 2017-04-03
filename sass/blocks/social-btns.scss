@@ -1,8 +1,8 @@
 .social-btns {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 150px;
-  height: 48px;
   margin: 37px auto 33px auto;
   @media ($tablet-width) {
     box-sizing: border-box;
