@@ -8,6 +8,11 @@
 	@include no-list-styles;
   @media ($tablet-width) {
     display: flex;
+    flex-wrap: wrap;
+    padding-right: 18px;
+  }
+  @media ($desktop-width) {
+    padding-right: 40px;
   }
 }
 

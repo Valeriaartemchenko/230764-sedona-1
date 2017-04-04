@@ -519,6 +519,7 @@
 .feedback-form__input:focus {
   background-color: #ffffff;
   border: 4px solid #e5e5e5;
+  padding-left: 18px;
 }
 
 .feedback-form__input--name {
@@ -725,6 +726,20 @@
   color: #ffffff;
   background-color: $bg-color-blue;
   border: none;
+  outline: none;
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: rgba(255,255,255, 0.3);
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
+  }
+
   @media ($tablet-width) {
     width: 324px;
     position: relative;
