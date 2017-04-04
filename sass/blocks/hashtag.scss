@@ -1,0 +1,23 @@
+.hashtag {
+  width: 140px;
+  font-family: "PT-sans-bold","Arial",sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: -1.1px;
+  text-decoration: none;
+  color: #000000;
+  @media ($tablet-width) {
+    width: 250px;
+    box-sizing: border-box;
+    padding-left: 6px;
+    padding-top: 10px;
+  }
+  @media ($desktop-width) {
+    box-sizing: border-box;
+    width: 400px;
+    padding-left: 13px;
+    padding-top: 12px;
+  }
+}

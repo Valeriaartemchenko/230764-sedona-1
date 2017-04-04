@@ -6,6 +6,14 @@
 
 .menu__list {
 	@include no-list-styles;
+  @media ($tablet-width) {
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 18px;
+  }
+  @media ($desktop-width) {
+    padding-right: 40px;
+  }
 }
 
 .menu__link {
@@ -23,5 +31,88 @@
 	color:#ffffff;
 
 	border-bottom:solid 1px #678fa8;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: rgba(255,255,255, 0.3);
+  }
+
+  @media ($tablet-width) {
+    padding-top: 20px;
+    padding-bottom: 18px;
+    padding-left: 50px;
+    padding-right: 0px;
+
+    background-color:$bg-color;
+    text-align: center;
+    font-weight: 600;
+    font-size: 13px;
+    color:#000000;
+    border-bottom: none;
+
+    &:hover {
+      background-color: $bg-color;
+      color: #81b3d2;
+    }
+
+    &:active {
+      color: #b2b2b2;
+    }
+  }
+
+  @media ($desktop-width) {
+    padding-left: 135px;
+    padding-right: 70px;
+  }
+}
+
+.menu__link--active {
+  @media ($tablet-width) {
+    color: #766357;
+    cursor: pointer;
+    &:hover {
+      color: #604e43;
+    }
+
+    &:active {
+      color: #d6d0cc;
+    }
+  }
+}
+
+.menu__item:first-child .menu__link {
+  @media ($tablet-width) {
+    padding-left: 50px;
+    padding-right: 22px;
+  }
+
+  @media ($desktop-width) {
+    padding-left: 90px;
+  }
+}
+
+.menu__item:last-child .menu__link {
+  @media ($desktop-width) {
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+}
+
+.menu__item {
+  @media ($tablet-width) {
+    &:nth-child(2) {
+      margin-right: 155px;
+    }
+  }
+
+  @media ($desktop-width) {
+    &:nth-child(2) {
+      margin-right: 175px;
+    }
+  }
 }
 

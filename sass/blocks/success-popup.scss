@@ -1,0 +1,91 @@
+.success-popup {
+  display: none;
+  position: absolute;
+  top: 1950px;
+  z-index: 5;
+  width: 320px;
+  height: 323px;
+  box-sizing: border-box;
+  padding-top: 48px;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  box-shadow: 0 0 9px 0 #dbdbdb;
+  @media ($tablet-width) {
+    top: 1310px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 640px;
+    height: 348px;
+  }
+  @media ($desktop-width) {
+    top: 1120px;
+  }
+}
+
+.success-popup__title {
+  font-family: "PT-sans-bold","Arial",sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  @media ($tablet-width) {
+    font-size: 29px;
+    font-weight: 600;
+  }
+}
+
+.success-popup__text {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 29px;
+  font-family: "PT-sans","Arial",sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: -0.8px;
+  @media ($tablet-width) {
+    padding-left: 110px;
+    padding-right: 110px;
+    margin-bottom: 36px;
+  }
+  @media ($desktop-width) {
+
+  }
+}
+
+.success-popup__btn-wrap {
+  background-color: #f2f2f2;
+  height: 98px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  @media ($tablet-width) {
+    height: 145px;
+    padding-top: 45px;
+  }
+}
+
+.success-popup__btn {
+  width: 280px;
+  height: 58px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: $bg-color-blue;
+  border: none;
+  outline: none;
+
+  &:hover {
+    background-color: #669ec0;
+  }
+
+  &:active {
+    background-color: #5496bd;
+    color: rgba(255,255,255, 0.3);
+  }
+
+  &:disabled {
+    background-color: #e5e5e5;
+  }
+
+  @media ($tablet-width) {
+    width: 458px;
+  }
+}

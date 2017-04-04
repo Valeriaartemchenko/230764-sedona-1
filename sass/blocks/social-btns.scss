@@ -1,0 +1,16 @@
+.social-btns {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 150px;
+  margin: 37px auto 33px auto;
+  @media ($tablet-width) {
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+  @media ($desktop-width) {
+    justify-content: center;
+    box-sizing: border-box;
+    width: 400px;
+  }
+}

@@ -1,0 +1,26 @@
+.map {
+  width: 320px;
+  height: 350px;
+  background-image: url("bg-map-mobile@1x.jpg");
+  background-color: #cbdfa3;
+  @media ($tablet-width) {
+    width: 768px;
+    background-image: url("bg-map-tablet@1x.jpg");
+  }
+  @media ($desktop-width) {
+    width: 1200px;
+    background-image: url("bg-map-desktop@1x.jpg");
+  }
+}
+
+.map iframe{
+  width: 320px;
+  height: 350px;
+  border: none;
+  @media ($tablet-width) {
+    width: 768px;
+  }
+  @media ($desktop-width) {
+    width: 1200px;
+  }
+}
